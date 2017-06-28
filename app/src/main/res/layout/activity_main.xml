@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vladyslav.edytor.MainActivity"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:hint="Wprowadź tekst"
+        android:gravity="top"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/text"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Zapisz do pliku"
+        android:inputType="textCapWords"
+        android:textSize="20dp"
+        android:onClick="write"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="textCapWords"
+        android:text="Odczytaj z pliku"
+        android:textSize="20dp"
+        android:onClick="read"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="textCapWords"
+        android:text="Wyczyść"
+        android:textSize="20dp"
+        android:onClick="clear"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="textCapWords"
+        android:text="Ustawienia"
+        android:textSize="20dp"
+        android:onClick="settings"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="textCapWords"
+        android:text="Zamknij aplikację"
+        android:textSize="20dp"
+        android:onClick="close"
+        />
+
+
+
+</LinearLayout>
